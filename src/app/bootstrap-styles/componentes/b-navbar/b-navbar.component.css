@@ -1,0 +1,11 @@
+.hover-blue{
+    color:black
+}
+
+.hover-blue:hover{
+    color:blue;
+}
+
+.size-text{
+    font-size: 1.875rem;
+}
