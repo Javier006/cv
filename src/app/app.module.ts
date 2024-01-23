@@ -8,9 +8,9 @@ import { TailwindStylesComponent } from './tailwind-styles/tailwind-styles.compo
 import { BNavbarComponent } from './bootstrap-styles/componentes/b-navbar/b-navbar.component';
 import { BFooterComponent } from './bootstrap-styles/componentes/b-footer/b-footer.component';
 import { BIndexComponent } from './bootstrap-styles/componentes/b-pagina/b-index/b-index.component';
-import { TNavbarComponent } from './Tailwind-styles/componentes/t-navbar/t-navbar.component';
-import { TFooterComponent } from './Tailwind-styles/componentes/t-footer/t-footer.component';
-import { TPaginaComponent } from './Tailwind-styles/componentes/t-pagina/t-pagina.component';
+import { TFooterComponent } from './tailwind-styles/componentes/t-footer/t-footer.component';
+import { TNavbarComponent } from './tailwind-styles/componentes/t-navbar/t-navbar.component';
+import { TPaginaComponent } from './tailwind-styles/componentes/t-pagina/t-pagina.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +20,8 @@ import { TPaginaComponent } from './Tailwind-styles/componentes/t-pagina/t-pagin
     BNavbarComponent,
     BFooterComponent,
     BIndexComponent,
-    TNavbarComponent,
     TFooterComponent,
+    TNavbarComponent,
     TPaginaComponent
   ],
   imports: [
