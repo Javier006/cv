@@ -4,9 +4,7 @@ import { BootstrapStylesComponent } from './bootstrap-styles/bootstrap-styles.co
 import { TailwindStylesComponent } from './tailwind-styles/tailwind-styles.component';
 
 const routes: Routes = [
-  {
-    path:'', redirectTo:'t' , pathMatch:'full'
-  },
+  //{path:'', redirectTo:'t' , pathMatch:'full'},
   {
     path:'b',
     component: BootstrapStylesComponent,
